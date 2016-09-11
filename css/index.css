@@ -7,6 +7,12 @@
 .clearfix:after {
     clear: both;
 }
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
 .container {
     width: 940px;
     margin: 0 auto;
@@ -37,7 +43,6 @@
     text-transform: uppercase;
     font: 14px Arial, sans-serif;
     color: white;
-    text-decoration: none;
 }
 .nav a:hover {
 color: #f1c736;
@@ -55,7 +60,7 @@ color: #f1c736;
 
 }
 #home h3 {
-    font: 40px Arial ,sans-serif;
+    font: 40px Arial, sans-serif;
     margin-bottom: 40px;
 }
 #home h1 {
@@ -64,7 +69,8 @@ color: #f1c736;
     margin-bottom: 50px;
 }
 .btn {
-    font: 24px bold Arial ,sans-serif;
+    font: 24px Arial, sans-serif;
+    font-weight: bold;
     text-transform: uppercase;
     color: white;
     background-color: #fed136;
@@ -78,5 +84,38 @@ color: #f1c736;
     border: none;
 }
 .btn:hover {
-    background: #ecb636;
+    background: #fec836;
+}
+.box {
+    padding: 120px 0;
+}
+#services {
+    text-align: center;
+}
+h2.title {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font: 40px Arial, sans-serif;
+    font-weight: bold;
+    color: #222222;
+}
+h5.title {
+    margin-bottom: 10px;
+    font: 18px Arial, sans-serif;
+    font-weight: bold;
+    color: #222222;
+}
+.descr {
+    font: 16px;
+    color: #777777;
+    margin-bottom: 10px;
+}
+.services_item{
+    float: left;
+    width: 33%;
+}
+.services_item p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #777777;
 }

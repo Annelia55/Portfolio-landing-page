@@ -18,17 +18,33 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-    display: block;
+html {
+    height: 100%;
 }
 body {
-    line-height: 1;
+    height: 100%;
+    font: 14px/18px 'Times New Roman', Times, san-serif;
+    background-color: #FFFFFF;
 }
 ol, ul {
     list-style: none;
 }
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a, a:hover {
+    text-decoration: none;
+}
+article, aside, details, figcaption, figure,
+ footer, header, hgroup, menu, nav, section {
+     display: block;
+ }
 blockquote, q {
     quotes: none;
 }
