@@ -95,13 +95,13 @@ color: #f1c736;
 h2.title {
     text-transform: uppercase;
     margin-bottom: 10px;
-    font: 40px Arial, sans-serif;
+    font: 40px/40px Arial, sans-serif;
     font-weight: bold;
     color: #222222;
 }
 h5.title {
     margin-bottom: 10px;
-    font: 18px Arial, sans-serif;
+    font: 18px/18px Arial, sans-serif;
     font-weight: bold;
     color: #222222;
 }
@@ -110,12 +110,26 @@ h5.title {
     color: #777777;
     margin-bottom: 10px;
 }
+.services_wrap{
+    margin-left: 16%;
+    margin-top: 70px;
+}
 .services_item{
     float: left;
-    width: 33%;
+    width: 27%;
+    padding: 95px 10px 0;
 }
 .services_item p {
     font-size: 18px;
     line-height: 24px;
     color: #777777;
+}
+.commerce {
+    background: url("../img/commerce.png")no-repeat center top;
+}
+.responsive {
+    background: url("../img/responsive.png")no-repeat center top;
+}
+.security {
+    background: url("../img/security.png")no-repeat center top;
 }
