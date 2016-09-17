@@ -229,5 +229,37 @@ h5.title {
 }
 .about_link a{
     color: white;
-    text-shadow: 0 1px rgba(0,0,0,.3);
+    -webkit-text-shadow: 0 1px rgba(0,0,0,.3);
+       -moz-text-shadow: 0 1px rgba(0,0,0,.3);
+         -o-text-shadow: 0 1px rgba(0,0,0,.3);
+            text-shadow: 0 1px rgba(0,0,0,.3);
+}
+#team {
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.team-wrap {
+    margin-top: 70px;
+}
+.team_item img{
+    margin-bottom: 15px;
+    border: 7px solid #ffffff;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+}
+.cat {
+    font: 14px/14px Arial, sans-serif;
+    color: #777777;
+}
+.social a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 3px solid black;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
 }
