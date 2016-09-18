@@ -306,3 +306,20 @@ h5.title {
     background-color: #d95232;
     background-position: -120px -40px;
 }
+.team_info {
+    margin-top: 45px;
+}
+#brand {
+    padding: 60px 0;
+    text-align: center;
+}
+#brand a{
+    display: inline-block;
+    margin-right: 40px;
+}
+#brand a:last-child{
+    margin-right: 0;
+}
+#brand img {
+    vertical-align: middle;
+}
