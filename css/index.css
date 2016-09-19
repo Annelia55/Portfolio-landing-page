@@ -274,12 +274,18 @@ h5.title {
             border-radius: 50%;
 
 }
+.social a.black{
+    background-color: #222;
+}
 .social a.ic-tw {
     background-position: 0 0;
 }
 .social a.ic-tw:hover {
     border-color: #00aced;
     background-color: #00aced;
+    background-position: 0 -40px;
+}
+.social a.ic-tw.black{
     background-position: 0 -40px;
 }
 .social a.ic-fb {
@@ -290,6 +296,9 @@ h5.title {
     background-color: #3b5998;
     background-position: -40px -40px;
 }
+.social a.ic-fb.black{
+    background-position: -40px -40px;
+}
 .social a.ic-pn {
       background-position: -80px 0;
 }
@@ -298,12 +307,18 @@ h5.title {
     background-color: #cb2028;
     background-position: -80px -40px;
 }
+.social a.ic-pn.black{
+    background-position: -80px -40px;
+}
 .social a.ic-gl {
     background-position: -120px 0;
 }
 .social a.ic-gl:hover {
     border-color: #d95232;
     background-color: #d95232;
+    background-position: -120px -40px;
+}
+.social a.ic-gl.black{
     background-position: -120px -40px;
 }
 .team_info {
@@ -322,4 +337,63 @@ h5.title {
 }
 #brand img {
     vertical-align: middle;
+}
+#contact {
+    text-align: center;
+    background: #222222 url(../img/maps-bg.png) no-repeat right bottom;
+}
+#contact h2.title {
+    color: white;
+}
+#message {
+    padding-top: 70px;
+}
+#message .left,
+#message .right {
+    width: 48%;
+}
+#message input[type="text"],
+#message textarea {
+    background: white;
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    color: #222222;
+    font: bold 14px/14px Arial, sans-serif;
+    box-shadow: none;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+         -o-border-radius: 4px;
+            border-radius: 4px;
+}
+#message input[type="text"] {
+    height: 50px;
+    border: 1px solid #ccc;
+}
+#message textarea {
+    height: 210px;
+    border: none;
+    resize: none;
+}
+::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font: bold 14px/14px Arial, sans-serif;
+    color: #bbb;
+}
+::-moz-placeholder {
+    text-transform: uppercase;
+    font: bold 14px/14px Arial, sans-serif;
+    color: #bbb;
+}
+#copyright {
+    padding: 25px 0;
+}
+#copyright p {
+    margin-top: 13px;
+    font: 14px/14px Arial, sans-serif;
+    color: #555;
+}
+#copyright .social {
+    margin-top: 0;
+    margin-left: 380px;
 }
