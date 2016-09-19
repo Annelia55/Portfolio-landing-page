@@ -193,10 +193,10 @@ h5.title {
 .about_img:after{
     content: '';
     display: block;
-    margin: 0 auto;
     height: 94px;
     width: 3px;
     background: #f1f1f1;
+    margin: -5px auto 0 auto;
 }
 .about_img img{
     display: inline-block;
